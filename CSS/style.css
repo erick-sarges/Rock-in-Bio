@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: url(../images/fundo.jpeg);
+   background-position: center;
+  
+}
+
+@font-face {
+
+    font-family: FascinateInline;
+    src: url(../Fonts/FascinateInline-Regular.ttf);
+    
+}
+@font-face {
+    font-family: Tapestry;
+    src:url(../Fonts/Tapestry-Regular.ttf)
+}
+
+.container{
+
+    margin: auto;
+    max-width: 1200px;
+}
+
+header{
+    background-color: #c70000dd;
+    text-align: center;
+    color: black;
+    border: 1px double black;
+    border-radius: 5px;
+    
+
+}
+
