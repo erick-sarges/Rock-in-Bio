@@ -29,12 +29,24 @@ body{
 }
 
 header{
-    background-color: #c70000dd;
+    background-color: #000000cc;
     text-align: center;
-    color: black;
+    color: red  ;
     border: 1px double black;
-    border-radius: 5px;
+    border-radius: 50px;
+    font-family: Tapestry, Arial, Helvetica, sans-serif;
     
+    
+}
 
+.title{
+
+    font-size: 35px;
+}
+.subtitle{
+
+    font-size: 50px;
+    font-weight: bold;
+    
 }
 
