@@ -29,11 +29,14 @@ body{
 }
 
 header{
+    background-image: url(../images/icons8-musica-metal-48.png);
+    background-position: calc(5% - 30px);
+    background-repeat: no-repeat;
     background-color: #000000cc;
     text-align: center;
     color: red  ;
-    border: 1px double black;
-    border-radius: 50px;
+    border: 5px double red;
+    border-radius: 5px;
     font-family: Tapestry, Arial, Helvetica, sans-serif;
     
     
@@ -49,4 +52,49 @@ header{
     font-weight: bold;
     
 }
+section{
+    background-image: url(../images/rock.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    border: 10px #000000aa solid;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 500px;
+    padding: 30px;
+    
+    
+}
+
+.box{
+
+    text-align: center;
+    background-color: #000000cc;
+    max-width: 230px;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+.box h4, .box p, .box h3{
+    margin-bottom: 10px;
+    color: #ff0000;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+
+
+}
+
+input[type="submit"]{
+    font-weight: bold;
+    background-color: red;
+    font-family: Tapestry, Arial, Helvetica, sans-serif;
+}
+
 
