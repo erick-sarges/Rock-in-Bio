@@ -37,6 +37,7 @@ header{
     color: #d63232;
     border: 5px double #ff0000bb;
     font-family: Tapestry;
+   
     
     
 }
@@ -57,8 +58,9 @@ section{
     background-position: center;
     border: 8px #000000aa solid;
     overflow: auto;
-    height: 600px;
+    /* height: 90%; */
     padding: 30px;
+    
     
     
 }
@@ -119,11 +121,9 @@ option{
 
 .Line-up{
 
-    width: 800px;
-    height: 20%;
+    width: fit-content;
+    height: fit-content;
     padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
     background-color:#d63232bb;
     margin: auto;
     margin-top:30px ;
@@ -141,9 +141,9 @@ option{
 .bandas2{
 
     display: inline-block;
-    position: relative;
+    /* position: relative;
     left: 730px;
-    bottom: 122px;
+    bottom: 122px; */
     
 }
 
@@ -163,11 +163,11 @@ option{
 
 span{
 
-    color: black;
+    color: white;
     font-family: FascinateInline;
-    position: relative;
+    /* position: relative;
     left: 10px;
-    font-size: 1.1rem;
+    font-size: 1.1rem; */
     
     
     
