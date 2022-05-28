@@ -57,7 +57,7 @@ section{
     background-position: center;
     border: 8px #000000aa solid;
     overflow: auto;
-    height: 500px;
+    height: 600px;
     padding: 30px;
     
     
@@ -70,6 +70,7 @@ section{
     max-width: 230px;
     margin: auto;
     padding: 15px;
+    
     
 }
 
@@ -102,6 +103,34 @@ select{
     background-repeat: no-repeat;
     background-position: calc(100% - 10px)center;
     
+}
+
+.Line-up{
+
+    width: 1000px;
+    height: 100px;
+    padding: 30px;
+    overflow-x: scroll;
+    background-color: #000000cc;
+    margin: auto;
+    margin-top:40px ;
+
+}
+
+.Line-up img{
+
+    width: 150px;
+    height: 100px;
+    
+    
+    
+}
+
+
+
+span{
+
+    color: #ff0000;
 }
 
 footer{
