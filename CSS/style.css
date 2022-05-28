@@ -35,9 +35,8 @@ header{
     background-color: #000000cc;
     text-align: center;
     color: red  ;
-    border: 5px double red;
-    border-radius: 5px;
-    font-family: Tapestry, Arial, Helvetica, sans-serif;
+    border: 5px double #ff0000bb;
+    font-family: Tapestry;
     
     
 }
@@ -56,10 +55,8 @@ section{
     background-image: url(../images/rock.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    border: 10px #000000aa solid;
-    border-radius: 5px;
-    overflow: hidden;
+    border: 8px #000000aa solid;
+    overflow: auto;
     height: 500px;
     padding: 30px;
     
@@ -94,7 +91,17 @@ input, select{
 input[type="submit"]{
     font-weight: bold;
     background-color: red;
-    font-family: Tapestry, Arial, Helvetica, sans-serif;
+    font-family: Tapestry;
+}
+
+select{
+    appearance: none;
+    -moz-appearance:none ;
+    -webkit-appearance: none;
+    background-image: url(../images/icon-mão-para-baixo.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px)center;
+    
 }
 
 
