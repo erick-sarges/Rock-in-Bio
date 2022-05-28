@@ -104,4 +104,27 @@ select{
     
 }
 
+footer{
+text-align: center;
+background-color: #202121;
+padding: 40px;
+
+}
+
+.description{
+    color: #ff0000;
+    max-width: 40%;
+    font-family: Tapestry;
+    text-align: center;
+    margin: auto;
+    font-size: 18px
+    
+
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+
 
